@@ -1,0 +1,115 @@
+{
+  "_comment": "Wekan release assets, keyed by version. install-wekan.py resolves which version to use per two policies (see 'policy' below): 'latest' (each platform independently tracks its own newest available asset -- default, for single-user/non-team use) or 'team' (every platform pins to the same version, for consistency across a team's machines). Regenerate release entries by querying https://api.github.com/repos/wekan/wekan/releases/tags/<tag> -- this is data, not logic, per osat-fluent--archetype-5 section 9.1.",
+  "source_repo": "wekan/wekan",
+  "fetched_at": "2026-07-28T00:00:00Z",
+  "releases": {
+    "10.44": {
+      "published_at": "2026-07-27T23:21:46Z",
+      "platforms": {
+        "linux-amd64": {
+          "filename": "wekan-10.44-amd64.zip",
+          "url": "https://github.com/wekan/wekan/releases/download/v10.44/wekan-10.44-amd64.zip",
+          "sha256": "d19c2b6322a34e241c85a20e9f1a8a02b89cb603326bca2aeb471cfbd059d8ed",
+          "size_bytes": 308293875
+        },
+        "linux-arm64": {
+          "filename": "wekan-10.44-arm64.zip",
+          "url": "https://github.com/wekan/wekan/releases/download/v10.44/wekan-10.44-arm64.zip",
+          "sha256": "01859de67108d4f0c98492a41073a556e801b4eee098b3fad03121a0abb2b06a",
+          "size_bytes": 311059812
+        },
+        "linux-ppc64le": {
+          "filename": "wekan-10.44-ppc64le.zip",
+          "url": "https://github.com/wekan/wekan/releases/download/v10.44/wekan-10.44-ppc64le.zip",
+          "sha256": "cd794f6f98b2b7e24b5776fbbf5f543de126650e19a731b20033ba4c2ac6c71d",
+          "size_bytes": 313423660
+        },
+        "linux-riscv64": {
+          "filename": "wekan-10.44-riscv64.zip",
+          "url": "https://github.com/wekan/wekan/releases/download/v10.44/wekan-10.44-riscv64.zip",
+          "sha256": "e73b3c5bb7c92058979009de506cb1603aaa21c70abb756872e8fc5322d814b7",
+          "size_bytes": 312084147
+        },
+        "linux-s390x": {
+          "filename": "wekan-10.44-s390x.zip",
+          "url": "https://github.com/wekan/wekan/releases/download/v10.44/wekan-10.44-s390x.zip",
+          "sha256": "3178b658b272de80a67d439d568880c0cddd7ae54d175aa3f8ca41d0aa01fc69",
+          "size_bytes": 314300813
+        },
+        "darwin-arm64": {
+          "filename": "wekan-10.44-mac-arm64.zip",
+          "url": "https://github.com/wekan/wekan/releases/download/v10.44/wekan-10.44-mac-arm64.zip",
+          "sha256": "99efdc069aae628eebc2c7dbe09b0bced8d0396043d73f735dea6f432c9c3620",
+          "size_bytes": 307057920
+        }
+      },
+      "_note": "No windows-amd64 asset published for this release."
+    },
+    "10.24": {
+      "published_at": "2026-07-22T15:43:37Z",
+      "platforms": {
+        "linux-amd64": {
+          "filename": "wekan-10.24-amd64.zip",
+          "url": "https://github.com/wekan/wekan/releases/download/v10.24/wekan-10.24-amd64.zip",
+          "sha256": "4a0e4aef306111af5624e65a414c90f0bd918411027ed47aa77400966bbb2b34",
+          "size_bytes": 307082088
+        },
+        "linux-arm64": {
+          "filename": "wekan-10.24-arm64.zip",
+          "url": "https://github.com/wekan/wekan/releases/download/v10.24/wekan-10.24-arm64.zip",
+          "sha256": "3d2fb0de6ab3e5a1a34621c79bf7578ad58205c74c7b18e19476ca812cee869b",
+          "size_bytes": 309851899
+        },
+        "linux-ppc64le": {
+          "filename": "wekan-10.24-ppc64le.zip",
+          "url": "https://github.com/wekan/wekan/releases/download/v10.24/wekan-10.24-ppc64le.zip",
+          "sha256": "75e74b2e62646424dae6109d8b5d1ba48f0f9869718df739beca854343a52d82",
+          "size_bytes": 312215059
+        },
+        "linux-riscv64": {
+          "filename": "wekan-10.24-riscv64.zip",
+          "url": "https://github.com/wekan/wekan/releases/download/v10.24/wekan-10.24-riscv64.zip",
+          "sha256": "9f1bdad57dc816febe640f797469d69c95925299f07d7fd74adab82d79465f30",
+          "size_bytes": 310874796
+        },
+        "linux-s390x": {
+          "filename": "wekan-10.24-s390x.zip",
+          "url": "https://github.com/wekan/wekan/releases/download/v10.24/wekan-10.24-s390x.zip",
+          "sha256": "ada9f0e6ef79d2648e1b470383d5861d778b3207187511f98064d05021bc3cb7",
+          "size_bytes": 313092036
+        },
+        "darwin-arm64": {
+          "filename": "wekan-10.24-mac-arm64.zip",
+          "url": "https://github.com/wekan/wekan/releases/download/v10.24/wekan-10.24-mac-arm64.zip",
+          "sha256": "3f536f0ba0c683f3af085483376938cba565bd746f7f79a02fdece5aae088b7b",
+          "size_bytes": 305851746
+        },
+        "windows-amd64": {
+          "filename": "wekan-10.24-win64.zip",
+          "url": "https://github.com/wekan/wekan/releases/download/v10.24/wekan-10.24-win64.zip",
+          "sha256": "dcb343a66a65a496a218bfe1e26730de8d70b84e730ab82782486e027e213f8d",
+          "size_bytes": 295189308
+        }
+      },
+      "_note": "Last release (as of this writing) to ship a Windows asset. Full platform set confirmed present."
+    }
+  },
+  "policy": {
+    "latest": {
+      "_description": "Default. Each platform independently uses the newest release that shipped an asset for it.",
+      "linux-amd64": "10.44",
+      "linux-arm64": "10.44",
+      "linux-ppc64le": "10.44",
+      "linux-riscv64": "10.44",
+      "linux-s390x": "10.44",
+      "darwin-arm64": "10.44",
+      "windows-amd64": "10.24"
+    },
+    "team": {
+      "_description": "Opt-in via --mode team. Every platform pins to the same version, so every team member converges on identical Wekan behavior regardless of OS.",
+      "version": "10.24",
+      "security_note": "This is 20 releases behind the latest tracked here (10.44). Wekan has shipped security fixes in patch releases before (see release history at https://github.com/wekan/wekan/releases); whether any landed between v10.24 and v10.44 has NOT been verified for this config -- check that range before using team mode for anything reachable beyond localhost. Risk is materially different for a loopback-only single-machine board versus a board a team actually reaches over a LAN or the internet: the latter also reopens the FerretDB-has-no-auth-by-default assumption documented in README.md, since that assumption depends on staying loopback-bound."
+    }
+  },
+  "_unsupported_note": "No Intel/darwin-amd64 asset exists in any recent release."
+}

@@ -1,0 +1,9 @@
+#!/bin/sh
+# Generated from scripts/nix/wekan-tool by install-wekan.py -- do not edit by hand.
+# Re-running the installer regenerates this file.
+set -e
+export WRITABLE_PATH="__WEKAN_DATA_DIR__"
+export ROOT_URL="${WEKAN_ROOT_URL:-http://localhost:2000}"
+export PORT="${WEKAN_PORT:-2000}"
+cd "__WEKAN_BUNDLE_DIR__"
+exec ./start-wekan.sh "$@"
